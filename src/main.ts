@@ -21,15 +21,15 @@ import GLTFMaterialsVariantsExtension from 'three-gltf-extensions/loaders/KHR_ma
 
 const modelPaths = [
   'https://d2629xvaofl3d3.cloudfront.net/Floor.glb',
-  'https://d2629xvaofl3d3.cloudfront.net/Carpet_Default.glb',
+  'https://d2629xvaofl3d3.cloudfront.net/Sofa_Default.glb',
   'https://d2629xvaofl3d3.cloudfront.net/Wall.glb',
-  'https://d2629xvaofl3d3.cloudfront.net/Frame.glb',
-  'https://d2629xvaofl3d3.cloudfront.net/Plant.glb',
+  'https://d2629xvaofl3d3.cloudfront.net/Carpet_Default.glb',
+  'https://d2629xvaofl3d3.cloudfront.net/Window.glb',
   'https://d2629xvaofl3d3.cloudfront.net/Coffee_Table.glb',
   'https://d2629xvaofl3d3.cloudfront.net/Accessories.glb',
   'https://d2629xvaofl3d3.cloudfront.net/Floor_Lamp.glb',
-  'https://d2629xvaofl3d3.cloudfront.net/Window.glb',
-  'https://d2629xvaofl3d3.cloudfront.net/Sofa_Default.glb',
+  'https://d2629xvaofl3d3.cloudfront.net/Plant.glb',
+  'https://d2629xvaofl3d3.cloudfront.net/Frame.glb',
   
   // 'models/Wall.glb',
   // 'models/Floor.glb',
