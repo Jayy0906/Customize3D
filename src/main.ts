@@ -13,7 +13,6 @@ import { SMAAPass } from 'three/examples/jsm/postprocessing/SMAAPass.js';
 // import { FXAAShader } from 'three/examples/jsm/shaders/FXAAShader';
 import { SubsurfaceScatteringShader } from 'three/examples/jsm/shaders/SubsurfaceScatteringShader';
 import { RepeatWrapping, ShaderMaterial, TextureLoader, UniformsUtils, Vector3, DoubleSide } from 'three';
-
 //@ts-ignore
 import GLTFMeshGpuInstancingExtension from 'three-gltf-extensions/loaders/EXT_mesh_gpu_instancing/EXT_mesh_gpu_instancing.js';
 //@ts-ignore
@@ -123,7 +122,6 @@ function setupHDRI() {
 
 setupHDRI();
 
-
 //Changing Material variants
 const loadedModelsMap: any = {}
 const buttonArr = document.querySelectorAll('.button')
@@ -134,7 +132,7 @@ Array.from(buttonArr).forEach(button => {
     const selectedModel = target.dataset.model;
     const variantName = target.dataset.variant!;
 
-    console.log(loadedModelsMap);
+    // console.log(loadedModelsMap);
     console.log(variantName);
     console.log(selectedModel);
 
